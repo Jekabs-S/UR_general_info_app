@@ -12,7 +12,7 @@ The app searches the UR data source for general registry information and saves t
 ## Usage
 
 1. Prepare your .xlsx file with a column named "entity_name" containing the names of the entities you want to search for.
-2. You can run the `fetching_ur_data.py` script as a standalone by adding the input.xlsx file to the repository and then running `fetching_ur_data.py`. Or use the Flask app as an interface, by running `flask_app.py` and then navigating to (http://localhost:5000) in your browser and then uploading the input .xlsx file and pressing "Process data".
+2. You can run the `fetching_ur_data.py` script as a standalone by adding the input.xlsx file to the repository and then running `fetching_ur_data.py`. Or use the Flask app as an interface, by running `app.py` and then navigating to (http://localhost:5000) in your browser and then uploading the input .xlsx file and pressing "Process data".
 3. In either case the scripts will then create an "entity_ur_data.xlsx" file with the found entities as the end result.
 
 ## Dependencies
