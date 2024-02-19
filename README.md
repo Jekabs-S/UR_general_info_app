@@ -1,6 +1,6 @@
 # UR_general_info_app
 
-This is a simple app that fetches data from the [Latvian Enterprise Register (UR)](https://data.gov.lv/dati/lv/dataset/uz/resource/25e80bf3-f107-4ab4-89ef-251b5b9374e9) using an input .xlsx file. The input file should contain a single column named "entity_name", where the values are the names of registered entities in the UR.
+This is a simple app that I made to help out a friend that fetches data from the [Latvian Enterprise Register (UR)](https://data.gov.lv/dati/lv/dataset/uz/resource/25e80bf3-f107-4ab4-89ef-251b5b9374e9) using an input .xlsx file. The input file should contain a single column named "entity_name", where the values are the names of registered entities in the UR.
 
 The app searches the UR data source for general registry information and saves the found entities to an "entity_ur_data.xlsx" file.
 
